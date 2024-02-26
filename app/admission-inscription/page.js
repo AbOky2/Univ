@@ -1,23 +1,24 @@
 "use client";
 import React from 'react'
-import Nav2 from '../components/Nav2'
 import Footer from '../components/Footer'
+import Nav from '../components/Nav';
 
 function page() {
   return (
-    <div className=' bg-white'>
-    <Nav2 />
+    <div className=' '>
+    <Nav/>
     <div className=' '>
     <div className="w-full h-32 bg-hec bg-cover bg-center mb-12 shadow-xl">
         <div className="w-full h-full flex  justify-center items-center backdrop-brightness-50">
           <span className="text-white text-xl w-1/2 text-center">
                 Admissions & Inscriptions
           </span>
+       
         </div>
       </div>
    <div className='p-4'>
     <div className='mb-16'>
-    <p className=' '>
+    <p className=' text-lg font-medium dark:text-gray-200 text-zinc-800  '>
         Comment candidater, s'inscrire ou se réinscrire en première année, deuxième année et troisième année de licence ? En première année ou deuxième année de master ? 
         Quels sont les droits d'inscriptions ? Toutes les réponses à vos questions et les informations essentielles se trouve dans cette rubrique.
     </p>

@@ -5,18 +5,18 @@ import Link from "next/link";
 
 function Licence() {
   return (
-    <section className="p-2">
+    <section className="p-2 dark:bg-gray-900 dark:text-black">
       <div className="w-full h-14 bg-hec bg-cover bg-center mb-12 shadow-xl">
         <div className="w-full h-full flex  justify-center items-center backdrop-brightness-50">
           <span className="text-white text-xl w-1/2 text-center">Licence</span>
         </div>
       </div>
 
-      <div className="bg-[#11136e] p-4 rounded-2xl mb-4 ">
-        <h1 className=" text-2xl font-bold text-white mb-4">
+      <div className="bg-[#11136e] dark:bg-gray-100 p-4 rounded-2xl mb-4 dark:text-black ">
+        <h1 className=" text-2xl font-bold text-white mb-4 dark:text-gray-800">
           L'offre licence de l'UHT
         </h1>
-        <p className=" text-base mb-2 text-gray-300 text-opacity-90">
+        <p className=" text-lg mb-2 font-medium text-gray-300 dark:text-gray-900 text-opacity-90">
           Les formations de licence de l'Université Hec Tchad sont organisées de
           façon à proposer une
           <strong> spécialisation progressive</strong> permettant aux étudiants
@@ -24,7 +24,7 @@ function Licence() {
           d'interêt avec la possibilité de changer d'orientation grâce à un
           système de portails pluridisciplinaires.
         </p>
-        <p className=" text-base text-gray-300 text-opacity-90">
+        <p className=" text-lg font-medium text-gray-300 dark:text-gray-900 text-opacity-90">
           De ce fait, la 1ére année de licence est construite sur le principe de
           pluridisciplinarité et constitue une année d'orientation, la 2e année
           est une année de détermination et la 3e année, celle de
@@ -32,15 +32,15 @@ function Licence() {
         </p>
       </div>
 
-      <h1 className=" text-zinc-800 text-opacity-80 text-xl font-bold mb-2 mt-2 p-4">
+      <h1 className=" text-zinc-800 dark:text-white text-opacity-80 text-2xl font-bold mb-2 mt-2 p-4">
         Les formations
       </h1>
 
       <div className="bg-gray-200 rounded-lg p-4">
-        <Accordion selectionMode="multiple">
-          <AccordionItem key="1" aria-label="Accordion 1" title="Gestion">
+        <Accordion selectionMode="multiple" >
+          <AccordionItem key="1" aria-label="Accordion 1" title="Gestion" >
             <Link href={"licence-gestion"}>
-              <p className=" rounded-lg bg-slate-600 text-white w-full text-center">
+              <p className=" rounded-lg bg-slate-600 text-white w-full text-center ">
                 Licence Gestion
               </p>
             </Link>

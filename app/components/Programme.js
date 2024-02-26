@@ -17,8 +17,8 @@ function Programme(props) {
 
   return (
     <>
-      <section className=" text-base text-gray-600 font-normal mt-6 p-4">
-        <h1 className=" text-zinc-800 text-opacity-80 text-3xl font-bold mb-2">
+      <section className=" text-lg text-gray-600 font-normal mt-6 p-4">
+        <h1 className=" text-zinc-800 dark:text-white text-opacity-80 text-3xl font-bold mb-2">
           Programme
         </h1>
         <p className="mb-4">

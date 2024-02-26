@@ -4,6 +4,7 @@ import React from "react";
 import {Navbar,NavbarContent,
    NavbarItem, Link, NavbarMenuToggle, NavbarMenuItem, NavbarMenu} from "@nextui-org/react";
 import Image from 'next/image'
+import { ThemeSwitcher } from "./ThemeSwitcher";
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -21,17 +22,18 @@ export default function Nav() {
   }
 
   return (
-    <div className=" shadow-xl bg-white border-b-2 w-full sticky">
-    <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen}>
+    <div className=" w-full ">
+    <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen} className="bg-white dark:text-black ">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden text-black"
+          className="sm:hidden "
         />
+         <ThemeSwitcher/>
         
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center" >
+      <NavbarContent className="hidden sm:flex gap-4 font-bold" justify="center" >
         <NavbarItem>
           <Link color="foreground" href="#">
             Formations 
@@ -61,18 +63,17 @@ export default function Nav() {
         <Image
               src="/logoHEC.jpg"
               alt="Logo"
-              className="dark:invert"
               width={60}
               height={16}
               priority
             /></Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="bg-[#1bb6e1e6] text-white  ">
+      <NavbarMenu className=" text-gray-900  ">
         {menuItems.map((menuItem, index) => (
           <NavbarMenuItem key={index}>
            <Link
-                className="w-full text-white font-sans font-medium text-xl flex mt-4"
+                className="w-full text-[#808080] font-sans font-medium text-xl flex mt-4"
                 href={`${menuItem.section}`}
                 size="lg"
                 onClick={handleMenuClique}

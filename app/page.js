@@ -11,7 +11,7 @@ import { FadeDown } from './components/Fade';
 
 function page() {
   return (
-    <div className=' bg-white'>
+    <div >
       <Nav />
       {/* <Description /> */}
       <FadeDown />

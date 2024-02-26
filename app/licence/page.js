@@ -5,7 +5,7 @@ import Licence from '../components/Licence/Licence'
 
 function page() {
   return (
-    <div className=' bg-white'>
+    <div className='  dark:text-black'>
         <Nav />
         <Licence />
         <Footer />

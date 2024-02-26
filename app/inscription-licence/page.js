@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Nav2 from "../components/Nav2";
+import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import {
   Table,
@@ -13,8 +13,8 @@ import {
 
 function page() {
   return (
-    <div className=" bg-white">
-      <Nav2 />
+    <div className=" ">
+      <Nav />
 
  
         <div className="w-full h-32 bg-hec bg-cover bg-center mb-12 shadow-xl">
@@ -27,7 +27,7 @@ function page() {
 
 
         <div className=" p-4">
-        <div className=" text-gray-600 font-normal mb-12">
+        <div className=" text-gray-600 text-lg mb-12 font-medium">
           <p>
             Vous trouverez dans le tableau ci-dessous, les dates d'ouverture et
             de clôture des différentes étapes de la campagne de candidature.
@@ -36,7 +36,7 @@ function page() {
           <p>Ces dates concernent toutes les Licences.</p>
         </div>
         <div>
-        <Table aria-label="Example static collection table">
+        <Table aria-label="Example static collection table" className="bg-red-gray-100 border-1 shadow-lg border-gray-200 rounded-md dark:bg-gray-900">
       <TableHeader>
         <TableColumn>Parcours</TableColumn>
         <TableColumn>Candidature</TableColumn>
@@ -44,18 +44,18 @@ function page() {
       </TableHeader>
       <TableBody>
         <TableRow key="1">
-          <TableCell className="text-black">Licence 1</TableCell>
-          <TableCell className="text-black">Du 01 Août au 30 Septembre</TableCell>
+          <TableCell className="">Licence 1</TableCell>
+          <TableCell className="">Du 01 Août au 30 Septembre</TableCell>
           
         </TableRow>
         <TableRow key="2">
-          <TableCell className="text-black">Licence 2</TableCell>
-          <TableCell className="text-black">Du 01 Août au 30 Septembre</TableCell>
+          <TableCell className="">Licence 2</TableCell>
+          <TableCell className="">Du 01 Août au 30 Septembre</TableCell>
         
         </TableRow>
         <TableRow key="3">
-          <TableCell className="text-black">Licence 3</TableCell>
-          <TableCell className="text-black">Du 01 Août au 30 Novembre</TableCell>
+          <TableCell className="">Licence 3</TableCell>
+          <TableCell className="">Du 01 Août au 30 Novembre</TableCell>
           
         </TableRow>
         

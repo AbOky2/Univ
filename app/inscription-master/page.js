@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import Nav2 from '../components/Nav2';
+import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import {
     Table,
@@ -13,7 +13,7 @@ import {
 function page() {
   return (
     <div className=" bg-white">
-      <Nav2 />
+      <Nav />
 
  
         <div className="w-full h-32 bg-hec bg-cover bg-center mb-12 shadow-xl">

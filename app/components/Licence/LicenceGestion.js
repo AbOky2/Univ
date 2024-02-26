@@ -8,7 +8,7 @@ import Programme from "../Programme";
 
 function LicenceGestion() {
   const item = (
-    <ul className="text-sky-600 text-opacity-70 font-base text-base list-disc px-6">
+    <ul className=" dark:text-white text-opacity-70 font-lg text-lg list-disc px-6">
       <li>Microéconomie</li>
       <li>Econométrie</li>
       <li>Pratique de Logiciel Statistique</li>
@@ -31,18 +31,18 @@ function LicenceGestion() {
         </div>
       </div>
 
-      <div className="bg-[#11136e] p-4 rounded-2xl mb-4 ">
-        <h3 className=" text-xl font-bold text-white mb-4 text-opacity-75">
+      <div className="bg-[#11136e] dark:bg-gray-100 dark:text-black p-4 rounded-2xl mb-4 ">
+        <h3 className=" text-xl font-bold text-white dark:text-black mb-4 text-opacity-75">
           Information générales
         </h3>
-        <div className=" mb-2 border-b-2 border-gray-300 border-opacity-25 p-4">
-          <h3 className="text-gray-200 text-sm font-bold mb-2">
+        <div className=" mb-2 border-b-2 border-gray-300 dark:text-black border-opacity-25 p-4">
+          <h3 className="text-gray-200 dark:text-black text-sm font-bold mb-2">
             Durée de la formation
           </h3>
-          <li className="text-gray-200 text-sm font-bold">3 ans</li>
+          <li className="text-gray-200 text-sm font-bold dark:text-black">3 ans</li>
         </div>
         <div className=" mb-2 border-b-2 border-gray-300 border-opacity-25 p-4">
-          <h3 className="text-gray-200 text-sm font-bold mb-2">
+          <h3 className="text-gray-200 text-sm font-bold mb-2 dark:text-black">
             Lieu de la formation
           </h3>
           <p className="rounded-2xl p-1 bg-[#1bb9e4] w-1/4 text-center text-gray-200 text-xs font-bold">
@@ -50,7 +50,7 @@ function LicenceGestion() {
           </p>
         </div>
         <div className=" mb-2 p-4">
-          <h3 className="text-gray-200 text-sm font-bold mb-2">
+          <h3 className="text-gray-200 text-sm font-bold mb-2 dark:text-black">
             Langues d'enseignement
           </h3>
           <p className="rounded-2xl p-1 bg-[#1bb9e4] w-1/4 text-center text-gray-200 text-xs font-bold">
@@ -96,7 +96,7 @@ function LicenceGestion() {
               key="1"
               aria-label="Accordion 1"
               title="Licence 1"
-              className=" bg-[#1bb6e1e6] p-1 px-6 rounded-xl mb-3 font-medium"
+              className=" bg-[#1bb6e1e6] p-1 px-6 rounded-xl mb-3 font-medium "
             >
               {item}
             </AccordionItem>
@@ -120,15 +120,15 @@ function LicenceGestion() {
           </Accordion>
         }
         postbac={
-          <section className=" text-base text-gray-600 font-normal mt-6 p-4">
-            <h1 className=" text-zinc-800 text-opacity-80 text-3xl font-bold mb-2">
+          <section className=" text-lg text-gray-600 font-medium  mt-6 p-4">
+            <h1 className=" text-zinc-800 dark:text-white text-opacity-80 text-3xl font-bold mb-2">
               Et après ?
             </h1>
             <div className="mb-4">
-              <h2 className="text-zinc-800 text-opacity-60 text-lg font-bold ">
+              <h2 className="text-zinc-800 text-opacity-60 text-lg font-bold dark:text-white ">
                 Année post-bac de sortie
               </h2>
-              <p className=" font-semibold text-sm">Bac+3</p>
+              <p className=" font-semibold text-sm dark:text-gray-100">Bac+3</p>
             </div>
             <div>
               <p>
@@ -157,7 +157,7 @@ function LicenceGestion() {
               </p>
             </div>
             <div>
-              <h2 className="text-zinc-800 text-opacity-60 text-lg font-bold mt-4 mb-2">
+              <h2 className="text-zinc-800 dark:text-white text-opacity-60 text-lg font-bold mt-4 mb-2">
                 Poursuites d'études
               </h2>
               <p>
@@ -167,7 +167,7 @@ function LicenceGestion() {
               </p>
             </div>
             <div className="mt-4">
-              <h2 className="text-zinc-800 text-opacity-60 text-lg font-bold">
+              <h2 className="text-zinc-800 dark:text-white text-opacity-60 text-lg font-bold">
                 Débouchés professionnels
               </h2>
               <ul className=" list-disc p-4">

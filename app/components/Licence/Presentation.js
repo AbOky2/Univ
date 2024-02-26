@@ -3,8 +3,8 @@ import React from "react";
 function Presentation() {
   return (
     <>
-      <section className="bg-white text-base text-gray-600 font-normal p-4">
-        <h1 className=" text-zinc-800 text-opacity-80 text-3xl font-bold mb-2">
+      <section className=" text-lg text-gray-600 font-semibold p-4">
+        <h1 className=" text-zinc-800 dark:text-white text-opacity-80 text-3xl font-bold mb-2">
           Présentation
         </h1>
         <p>
@@ -61,8 +61,8 @@ function Presentation() {
           AES
         </p>
       </section>
-      <section className="bg-white text-base text-gray-600 font-normal mt-6 p-4">
-        <h1 className=" text-zinc-800 text-opacity-80 text-3xl font-bold mb-2">
+      <section className=" text-lg text-gray-600 font-semibold mt-6 p-4">
+        <h1 className=" text-zinc-800 dark:text-white text-opacity-80 text-3xl font-bold mb-2">
           Enjeux
         </h1>
         <p>
