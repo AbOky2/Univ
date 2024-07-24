@@ -38,43 +38,33 @@ function Number({ n }) {
 
 function ZoneIntervention() {
   return (
-    <section
-      className=" bg-[#11136e] p-4 h-screen mb-8 flex  flex-col "
-      id="zone"
-    >
-      {" "}
-      {/* <h1 className=" mb-4 text-3xl font-bold leading-none tracking-tight text-gray-100 md:text-5xl lg:text-6xl dark:text-white">
-          Université HEC en chiffres{" "}
-        </h1> */}
-        <div className="  h-full p-4">
-      <div className=" flex items-center mt-12 mb-12 flex-col">
-        <h2 className=" font-black text-5xl text-gray-600">
-          {" "}
-          <Number n={30000} />
-        </h2>
-        <p className=" font-extrabold text-2xl text-gray-600">Etudiants</p>
+    <>
+   <section className="py-12 md:py-20">
+    <div className="container mx-auto px-4 md:px-8">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+        Chiffres clés
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <h3 className="text-4xl font-bold mb-2"><Number n={2000} /></h3>
+          <p className="text-gray-600">Diplômés</p>
+        </div>
+        <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <h3 className="text-4xl font-bold mb-2"><Number n={30000} /></h3>
+          <p className="text-gray-600">Étudiants</p>
+        </div>
+        <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <h3 className="text-4xl font-bold mb-2"><Number n={90000} /></h3>
+          <p className="text-gray-600">Alumni</p>
+        </div>
+        <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <h3 className="text-4xl font-bold mb-2"><Number n={40} /></h3>
+          <p className="text-gray-600">Entreprises partenaires</p>
+        </div>
       </div>
-      <div className=" flex items-center mt-12 mb-12 flex-col">
-        <h2 className=" font-black text-5xl text-gray-600">
-          <Number n={50} />
-        </h2>
-        <p className=" font-extrabold text-2xl text-gray-600">Personnels</p>
-      </div>
-      <div className=" flex items-center mt-12 mb-12 flex-col">
-        <h2 className=" font-black text-5xl text-gray-600">
-          <Number n={2000} />
-        </h2>
-        <p className=" font-extrabold text-2xl text-gray-600">Diplômés/an</p>
-      </div>
-      <div className=" flex items-center mt-12 mb-12 flex-col">
-        <h2 className=" font-black text-5xl text-gray-600">
-          <Number n={90000} />
-        </h2>
-        <p className=" font-extrabold text-2xl text-gray-600">Alumni</p>
-      </div>
-      </div>
-      <br />
-    </section>
+    </div>
+  </section>
+  </>
   );
 }
 

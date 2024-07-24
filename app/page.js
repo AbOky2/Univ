@@ -7,6 +7,7 @@ import Effectifs from './components/Effectifs'
 import Offres from './components/Offres';
 import Actualites from './components/Actualites';
 import { FadeDown } from './components/Fade';
+import { Acceuil } from './components/Acceuil';
 
 
 function page() {
@@ -14,12 +15,13 @@ function page() {
     <div >
       <Nav />
       {/* <Description /> */}
-      <FadeDown />
+      {/* <FadeDown />
       <Baniere />
       <Effectifs />
        <Offres />
       <Actualites/>
-      <Footer />
+      <Footer /> */}
+      <Acceuil/>
     </div>
 
   )      

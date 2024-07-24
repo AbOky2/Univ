@@ -6,13 +6,13 @@ import Link from "next/link";
 function Licence() {
   return (
     <section className="p-2 dark:bg-gray-900 dark:text-black">
-      <div className="w-full h-14 bg-hec bg-cover bg-center mb-12 shadow-xl">
+      <div className="w-full h-14 bg-[url('/back.png')] bg-cover bg-center mb-12 shadow-xl">
         <div className="w-full h-full flex  justify-center items-center backdrop-brightness-50">
           <span className="text-white text-xl w-1/2 text-center">Licence</span>
         </div>
       </div>
 
-      <div className="bg-[#11136e] dark:bg-gray-100 p-4 rounded-2xl mb-4 dark:text-black ">
+      <div className="bg-[#0c0d3e] dark:bg-gray-100 p-4 rounded-2xl mb-4 dark:text-black ">
         <h1 className=" text-2xl font-bold text-white mb-4 dark:text-gray-800">
           L'offre licence de l'UHT
         </h1>

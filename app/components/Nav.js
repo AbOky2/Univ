@@ -5,6 +5,9 @@ import {Navbar,NavbarContent,
    NavbarItem, Link, NavbarMenuToggle, NavbarMenuItem, NavbarMenu} from "@nextui-org/react";
 import Image from 'next/image'
 import { ThemeSwitcher } from "./ThemeSwitcher";
+import { TransitionLink } from "../../lib/TransitionLink";
+
+
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -35,25 +38,25 @@ export default function Nav() {
 
       <NavbarContent className="hidden sm:flex gap-4 font-bold" justify="center" >
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <TransitionLink color="foreground" href="#">
             Formations 
-          </Link>
+          </TransitionLink>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href="#" aria-current="page">
+          <TransitionLink href="#" aria-current="page">
              Admissions et Inscriptions
-          </Link>
+          </TransitionLink>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <TransitionLink color="foreground" href="#">
            L'université
-          </Link>
+          </TransitionLink>
         </NavbarItem>
     
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <TransitionLink color="foreground" href="#">
             Nous contacter
-          </Link>
+          </TransitionLink>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
@@ -63,23 +66,23 @@ export default function Nav() {
         <Image
               src="/logoHEC.jpg"
               alt="Logo"
-              width={60}
+              width={46}
               height={16}
               priority
             /></Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className=" text-gray-900  ">
+      <NavbarMenu className=" text-gray-900  bg-white ">
         {menuItems.map((menuItem, index) => (
           <NavbarMenuItem key={index}>
-           <Link
+           <TransitionLink
                 className="w-full text-[#808080] font-sans font-medium text-xl flex mt-4"
                 href={`${menuItem.section}`}
                 size="lg"
                 onClick={handleMenuClique}
               >
                 {menuItem.text}
-              </Link>
+              </TransitionLink>
           </NavbarMenuItem>
         ))}
       </NavbarMenu>

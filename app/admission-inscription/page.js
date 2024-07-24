@@ -8,7 +8,7 @@ function page() {
     <div className=' '>
     <Nav/>
     <div className=' '>
-    <div className="w-full h-32 bg-hec bg-cover bg-center mb-12 shadow-xl">
+    <div className="w-full h-32 bg-[url('/back.png')] bg-cover bg-center mb-12 shadow-xl">
         <div className="w-full h-full flex  justify-center items-center backdrop-brightness-50">
           <span className="text-white text-xl w-1/2 text-center">
                 Admissions & Inscriptions

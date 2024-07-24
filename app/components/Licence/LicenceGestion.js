@@ -12,7 +12,7 @@ function LicenceGestion() {
       <li>Microéconomie</li>
       <li>Econométrie</li>
       <li>Pratique de Logiciel Statistique</li>
-      <li>Droit des Affaires Internationales</li>
+      <li>Droit des Afbg-[#0c0d3e]tionales</li>
       <li>Macro Dynamique</li>
       <li>Recherche Operationnelle</li>
       <li>Economie de Développement</li>
@@ -23,7 +23,7 @@ function LicenceGestion() {
 
   return (
     <section className="p-2">
-      <div className="w-full h-14 bg-hec bg-cover bg-center mb-12 shadow-xl">
+      <div className="w-full h-14 bg-[url('/back.png')] bg-cover bg-center mb-12 shadow-xl">
         <div className="w-full h-full flex  justify-center items-center backdrop-brightness-50">
           <span className="text-white text-xl w-1/2 text-center">
             Licence Gestion
@@ -31,7 +31,7 @@ function LicenceGestion() {
         </div>
       </div>
 
-      <div className="bg-[#11136e] dark:bg-gray-100 dark:text-black p-4 rounded-2xl mb-4 ">
+      <div className="bg-[#0c0d3e] dark:bg-gray-100 dark:text-black p-4 rounded-2xl mb-4 ">
         <h3 className=" text-xl font-bold text-white dark:text-black mb-4 text-opacity-75">
           Information générales
         </h3>
