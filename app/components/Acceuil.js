@@ -12,7 +12,7 @@ export function Acceuil() {
   return (
     <div>
  <div
-          className="relative w-full h-screen  bg-center"
+          className="relative w-full h-screen bg-cover bg-center"
           style={{ backgroundImage: "url('/acc.jpg')" }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent" />
