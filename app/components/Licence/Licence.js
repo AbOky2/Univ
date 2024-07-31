@@ -16,7 +16,7 @@ function Licence() {
         <h1 className=" text-2xl font-bold text-white mb-4 dark:text-gray-800">
           L'offre licence de l'UHT
         </h1>
-        <p className=" text-lg mb-2 font-medium text-gray-300 dark:text-gray-900 text-opacity-90">
+        <p className=" text-lg mb-2 font-medium text-gray-300 dark:text-gray-900 ">
           Les formations de licence de l'Université Hec Tchad sont organisées de
           façon à proposer une
           <strong> spécialisation progressive</strong> permettant aux étudiants
@@ -36,7 +36,7 @@ function Licence() {
         Les formations
       </h1>
 
-      <div className="bg-gray-200 rounded-lg p-4">
+      <div className="bg-gray-200 dark:bg-orange-300 rounded-lg p-4">
         <Accordion selectionMode="multiple" >
           <AccordionItem key="1" aria-label="Accordion 1" title="Gestion" >
             <Link href={"licence-gestion"}>

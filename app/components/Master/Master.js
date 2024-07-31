@@ -27,7 +27,7 @@ function Master() {
         Les formations
       </h1>
 
-      <div className="bg-gray-200 rounded-lg p-4">
+      <div className="bg-gray-200 rounded-lg p-4 dark:bg-orange-300">
         <Accordion selectionMode="multiple">
           <AccordionItem key="1" aria-label="Accordion 1" title="Gestion">
             <Link href={"master-gestion"}>

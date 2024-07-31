@@ -2,6 +2,8 @@
 import React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import { Button } from "../ui/button";
+import Link from "next/link";
 import {
   Table,
   TableHeader,
@@ -64,8 +66,10 @@ function page() {
         </div>
 
         <div className="mt-12 mb-4">
-            <h1 className="text-zinc-800 text-opacity-80 text-3xl font-bold mb-2">Contact</h1>
-            <a href="scolarite"><h2 className=" px-3 mx-3 border-l-blue-300 border-l-3 text-zinc-800 font-medium"> Service Scolarité </h2></a>
+            <h1 className="text-zinc-800 text-opacity-80 text-3xl font-bold mb-2 dark:text-gray-200">Contact</h1>
+            <Link href={"https://wa.me/15551234567"}>
+          <Button  >Contactez la Scolarité</Button>{" "}</Link>
+            
         </div>
       </div>
 

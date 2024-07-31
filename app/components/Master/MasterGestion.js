@@ -15,7 +15,7 @@ import {
 
 function MasterGestion() {
   const item = (
-    <ul className="text-sky-600 text-opacity-70 font-base text-base list-disc px-6">
+    <ul className="text-white text-opacity-70 font-base text-base list-disc px-6">
       <li>Pratique de Logiciel Statistique</li>
       <li>Droit des Affaires Internationales</li>
       <li>Macro Dynamique</li>
@@ -179,7 +179,7 @@ function MasterGestion() {
             <h2 className="text-zinc-800 text-opacity-60 text-lg font-bold mb-4">
             Taux d'insertion Master 2ème année
               </h2>
-        <Table aria-label="Example static collection table">
+        <Table aria-label="Example static collection table" className="shadow-md">
       <TableHeader>
         <TableColumn></TableColumn>
         <TableColumn>Taux</TableColumn>

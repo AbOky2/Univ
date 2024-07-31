@@ -46,19 +46,19 @@ function ZoneIntervention() {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="bg-white rounded-lg shadow-md p-6 text-center">
-          <h3 className="text-4xl font-bold mb-2"><Number n={2000} /></h3>
-          <p className="text-gray-600">Diplômés</p>
+          <h3 className="text-4xl font-bold mb-2 dark:text-gray-900"><Number n={2000} /></h3>
+          <p className="text-gray-600 ">Diplômés</p>
         </div>
         <div className="bg-white rounded-lg shadow-md p-6 text-center">
-          <h3 className="text-4xl font-bold mb-2"><Number n={30000} /></h3>
+          <h3 className="text-4xl font-bold mb-2 dark:text-gray-900"><Number n={30000} /></h3>
           <p className="text-gray-600">Étudiants</p>
         </div>
         <div className="bg-white rounded-lg shadow-md p-6 text-center">
-          <h3 className="text-4xl font-bold mb-2"><Number n={90000} /></h3>
+          <h3 className="text-4xl font-bold mb-2 dark:text-gray-900"><Number n={90000} /></h3>
           <p className="text-gray-600">Alumni</p>
         </div>
         <div className="bg-white rounded-lg shadow-md p-6 text-center">
-          <h3 className="text-4xl font-bold mb-2"><Number n={40} /></h3>
+          <h3 className="text-4xl font-bold mb-2 dark:text-gray-900"><Number n={40} /></h3>
           <p className="text-gray-600">Entreprises partenaires</p>
         </div>
       </div>

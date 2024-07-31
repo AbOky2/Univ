@@ -55,7 +55,8 @@ function Catalogues() {
               <h3 className="text-left font-bold mb-2"> Contacts</h3>
               <div className="border border-1 w-full mb-2" />
               <p className="text-blue-500">
-               <strong className="text-blue-500"> {'>'} Services scolarité</strong>
+                <a href="https://wa.me/15551234567">
+               <strong className="text-blue-500"> {'>'} Services scolarité</strong></a>
               </p>
               <p>
               <strong className="text-blue-500"> {'>'}</strong> Formulaire de contact

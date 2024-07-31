@@ -25,27 +25,28 @@ function page() {
   </div>
 
    
+<div className="grid md:grid-cols-2 gap-4">
+        <div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4 ">
+            <a href="inscription-licence">
+                <img class="rounded-t-lg" src="Acceuil.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="inscription-licence">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Licences</h5>
+                </a>
+            </div>
+        </div>
 
-<div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4 ">
-    <a href="#">
-        <img class="rounded-t-lg" src="Acceuil.jpg" alt="" />
-    </a>
-    <div class="p-5">
-        <a href="inscription-licence">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Licences</h5>
-        </a>
-    </div>
-</div>
-
-<div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
-    <a href="#">
-        <img class="rounded-t-lg" src="Acceuil.jpg" alt="" />
-    </a>
-    <div class="p-5">
-        <a href="inscription-master">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Master</h5>
-        </a>
-    </div>
+        <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
+            <a href="inscription-master">
+                <img class="rounded-t-lg" src="Acceuil.jpg" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="inscription-master">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Master</h5>
+                </a>
+            </div>
+        </div>
 </div>
 
 {/* <div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">

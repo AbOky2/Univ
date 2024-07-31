@@ -14,11 +14,11 @@ export default function Nav() {
   const menuItems = [
     { text: "Formations", section: "formations" },
     { text: "Admissions et Inscriptions", section: "admission-inscription" },
-    { text: "Nous contacter", section: "contact" },
-    { text: "L'université", section: "points" },
+    { text: "Nous contacter", section: "https://wa.me/15551234567" },
    
 
   ];
+
   
   const handleMenuClique = () =>{
     setIsMenuOpen(false);
@@ -37,24 +37,20 @@ export default function Nav() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4 font-bold" justify="center" >
-        <NavbarItem>
-          <TransitionLink color="foreground" href="#">
+        <NavbarItem isActive>
+          <TransitionLink color="foreground" href="formations">
             Formations 
           </TransitionLink>
         </NavbarItem>
         <NavbarItem isActive>
-          <TransitionLink href="#" aria-current="page">
+          <TransitionLink color="foreground" href="admission-inscription" >
              Admissions et Inscriptions
           </TransitionLink>
         </NavbarItem>
-        <NavbarItem>
-          <TransitionLink color="foreground" href="#">
-           L'université
-          </TransitionLink>
-        </NavbarItem>
+       
     
-        <NavbarItem>
-          <TransitionLink color="foreground" href="#">
+        <NavbarItem isActive>
+          <TransitionLink color="foreground" href="https://wa.me/15551234567">
             Nous contacter
           </TransitionLink>
         </NavbarItem>

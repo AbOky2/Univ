@@ -2,6 +2,8 @@
 import React from 'react'
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import { Button } from "../ui/button";
+import Link from "next/link";
 import {
     Table,
     TableHeader,
@@ -12,7 +14,7 @@ import {
   } from "@nextui-org/react";
 function page() {
   return (
-    <div className=" bg-white">
+    <div className=" bg-white dark:bg-gray-900 dark:text-gray-200">
       <Nav />
 
  
@@ -26,16 +28,16 @@ function page() {
 
 
         <div className=" p-4">
-        <div className=" text-gray-600 font-normal mb-12">
+        <div className=" text-gray-600 font-normal mb-12 dark:text-gray-200">
           <p>
             Vous trouverez dans le tableau ci-dessous, les dates d'ouverture et
             de clôture des différentes étapes de la campagne de candidature.
             <br />
           </p>
-          <p>Ces dates concernent toutes les Licences.</p>
+          <p>Ces dates concernent tous les Masters.</p>
         </div>
         <div>
-        <Table aria-label="Example static collection table">
+        <Table aria-label="Example static collection table" className="shadow-md dark:bg-gray-700 rounded-md">
       <TableHeader>
         <TableColumn>Parcours</TableColumn>
         <TableColumn>Candidature</TableColumn>
@@ -59,8 +61,10 @@ function page() {
         </div>
 
         <div className="mt-12 mb-4">
-            <h1 className="text-zinc-800 text-opacity-80 text-3xl font-bold mb-2">Contact</h1>
-            <a href="scolarite"><h2 className=" px-3 mx-3 border-l-blue-300 border-l-3 text-zinc-800 font-medium"> Service Scolarité </h2></a>
+            <h1 className="text-zinc-800 text-opacity-80 text-3xl font-bold mb-2 dark:text-gray-200">Contact</h1>
+            <Link href={"https://wa.me/15551234567"}>
+          <Button  >Contactez la Scolarité</Button>{" "}</Link>
+            
         </div>
       </div>
 

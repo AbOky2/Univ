@@ -12,7 +12,7 @@ function LicenceGestion() {
       <li>Microéconomie</li>
       <li>Econométrie</li>
       <li>Pratique de Logiciel Statistique</li>
-      <li>Droit des Afbg-[#0c0d3e]tionales</li>
+      <li>Droit des Affaires internationales</li>
       <li>Macro Dynamique</li>
       <li>Recherche Operationnelle</li>
       <li>Economie de Développement</li>
